@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Property Search</title>
+	<link rel="stylesheet" href="property.css">
+</head>
+<body>
+  <header>
+	<nav>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/property/property.html">Property </a></li>
+      <li><a href="#landowner">Landowner</a></li>
+      <li><a href="/signup/signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+	<main>
+		<section>
+			<h2>All Properties</h2>
+			<div class="photos-container">
+				<div class="property">
+					<img src="property1.jpg" alt="Property 1">
+					<h3>Property 1</h3>
+					<p>Landowner: John Smith</p>
+					<p>Price: $250,000</p>
+					<p>Location: New York City</p>
+				</div>
+				<div class="property">
+					<img src="property2.jpg" alt="Property 2">
+					<h3>Property 2</h3>
+					<p>Landowner: Jane Doe</p>
+					<p>Price: $350,000</p>
+					<p>Location: Los Angeles</p>
+				</div>
+				<div class="property">
+					<img src="property3.jpg" alt="Property 3">
+					<h3>Property 3</h3>
+					<p>Landowner: Bob Johnson</p>
+					<p>Price: $450,000</p>
+					<p>Location: Miami</p>
+				</div>
+				<div class="property">
+					<img src="property4.jpg" alt="Property 4">
+					<h3>Property 4</h3>
+					<p>Landowner: Sarah Wilson</p>
+					<p>Price: $550,000</p>
+					<p>Location: San Francisco</p>
+				</div>
+			</div>
+		</section>
+        <section>
+            <h2>Properties for Sale</h2>
+            <form>
+              <label for="bedrooms">Filter by Bedrooms:</label>
+              <select id="bedrooms" name="bedrooms">
+                <option value="all">All</option>
+                <option value="one">One Bedroom</option>
+                <option value="two">Two Bedrooms</option>
+              </select>
+              <label for="sort">Sort by Price:</label>
+              <select id="sort" name="sort">
+                <option value="low">Price Low to High</option>
+                <option value="high">Price High to Low</option>
+              </select>
+              <button type="submit">Apply Filters</button>
+            </form>
+            <div class="property-container">
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Cozy Apartment</h3>
+                <p>Landowner: John Smith</p>
+                <p>Price: $150,000</p>
+                <p>Location: New York</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Luxury Condo</h3>
+                <p>Landowner: Jane Doe</p>
+                <p>Price: $300,000</p>
+                <p>Location: Los Angeles</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Spacious Loft</h3>
+                <p>Landowner: Michael Johnson</p>
+                <p>Price: $250,000</p>
+                <p>Location: Chicago</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Charming Bungalow</h3>
+                <p>Landowner: Sarah Lee</p>
+                <p>Price: $175,000</p>
+                <p>Location: Austin</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Modern Townhouse</h3>
+                <p>Landowner: Mark Johnson</p>
+                <p>Price: $450,000</p>
+                <p>Location: Seattle</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Coastal Retreat</h3>
+                <p>Landowner: Emma Davis</p>
+                <p>Price: $800,000</p>
+                <p>Location: Malibu</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Contemporary Condo</h3>
+                <p>Landowner: Alex Lee</p>
+                <p>Price: $550,000</p>
+                <p>Location: San Francisco</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Country Estate</h3>
+                <p>Landowner: Sarah Wilson</p>
+                <p>Price: $1,200,000</p>
+                <p>Location: Austin</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Historic Brownstone</h3>
+                <p>Landowner: William Jones</p>
+                <p>Price: $950,000</p>
+                <p>Location: New York City</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Mountain Cabin</h3>
+                <p>Landowner: Maria Hernandez</p>
+                <p>Price: $400,000</p>
+                <p>Location: Denver</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Beach House</h3>
+                <p>Landowner: David Kim</p>
+                <p>Price: $1,500,000</p>
+                <p>Location: Santa Barbara</p>
+              </div>
+              <div class="property">
+                <img src="https://via.placeholder.com/300x200" alt="Property Image">
+                <h3>Industrial Loft</h3>
+                <p>Landowner: Amanda Lee</p>
+                <p>Price: $650,000</p>
+                <p>Location: Brooklyn</p>
+              </div>
+            </div>
+          </section>
+          
+          <footer>
+            <div class="footer-container">
+                <p>&copy; 2023 Property Search. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+          
+          </body>
+          </html>
+          
